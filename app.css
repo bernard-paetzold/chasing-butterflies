@@ -42,11 +42,13 @@ img
 
 .card
 {
-    width: 44em;
+    /*width: 44em;*/
     transition: transform 0.1s;
     display: flex;
     text-align: center;
     flex-direction: column;
+    flex-basis: 44em;
+    flex-grow: 1;
     justify-content: center;
     background-color: white;
     padding: 2%;
